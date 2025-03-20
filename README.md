@@ -1,39 +1,32 @@
-#AdbAppBeta
+AdbAppBeta
 Wersja Beta – narzędzie do zarządzania urządzeniami ADB
 
 Opis
-AdbAppBeta to aplikacja desktopowa dedykowana dla systemu Windows, umożliwiająca łatwą obsługę funkcji Android Debug Bridge (ADB) w przyjaznym interfejsie graficznym (GUI). Narzędzie jest idealne dla programistów, testerów oraz pasjonatów, którzy chcą w pełni wykorzystać możliwości ADB bez konieczności korzystania z terminala.
+AdbAppBeta to aplikacja desktopowa dla systemu Windows, zaprojektowana z myślą o prostocie obsługi funkcji Android Debug Bridge (ADB) za pomocą przyjaznego interfejsu graficznego (GUI). Idealne rozwiązanie dla programistów, testerów oraz entuzjastów Androida, którzy chcą w pełni wykorzystać potencjał ADB, bez potrzeby pracy w terminalu.
 
-#Funkcjonalność
+Funkcjonalność
 Połączenie i zarządzanie urządzeniami
-
-#Możliwość podłączenia urządzeń za pomocą USB lub przez sieć Wi-Fi (wpisz IP urządzenia).
-Obsługa wielu urządzeń – funkcja „List Devices” pozwala szybko sprawdzić, które urządzenia są aktywne.
+USB/Wi-Fi – możliwość podłączenia urządzeń przez USB lub sieć Wi-Fi (wpisz IP urządzenia).
+Wsparcie dla wielu urządzeń – funkcja "List Devices" pozwala na szybkie sprawdzenie aktywnych urządzeń.
 Kontrola urządzenia
-
-Regulacja jasności ekranu (jasność w górę/dół).
-Sterowanie głośnością urządzenia (głośność w górę/dół).
-Włączanie podstawowych funkcji: przycisk „Power”, „Assistant”, „Menu”, „Home”, „Back” i „Search”.
+Jasność ekranu – regulacja jasności (w górę/dół).
+Głośność – sterowanie głośnością (w górę/dół).
+Podstawowe funkcje – kontrola przycisków „Power”, „Assistant”, „Menu”, „Home”, „Back” i „Search”.
 Symulacja dotyku
-
-Możliwość wykonywania „tapnięć” w wybrane współrzędne (X, Y).
-Emulowanie gestów przesuwania (swipe) między podanymi współrzędnymi.
+Tapnięcia – możliwość wykonywania tapnięć w wybrane współrzędne (X, Y).
+Gesty swipe – emulowanie gestów przesuwania pomiędzy zadanymi współrzędnymi.
 Polecenia ADB Shell
-
-#Wbudowane pole tekstowe umożliwiające wprowadzanie własnych komend ADB Shell.
-Szybki dostęp do wyników poleceń w sekcji wyjściowej aplikacji.
+Wbudowane pole tekstowe – umożliwia wprowadzanie własnych komend ADB Shell.
+Szybki dostęp – wyniki poleceń wyświetlane są w sekcji wyjściowej aplikacji.
 Tryb pełnoekranowy
-
-#Aplikacja została zoptymalizowana do działania w trybie pełnoekranowym. W przeciwnym wypadku niektóre elementy interfejsu mogą nie być widoczne.
+Aplikacja działa optymalnie w trybie pełnoekranowym. W przeciwnym razie, niektóre elementy interfejsu mogą być niewidoczne.
 Przejrzysty interfejs użytkownika (UI)
-
-Minimalistyczny design, który umożliwia szybkie i łatwe korzystanie z funkcji ADB.
+Minimalistyczny design – intuicyjny interfejs, który zapewnia szybki dostęp do funkcji ADB.
 Wymagania
 System operacyjny: Windows.
-Działające środowisko ADB z poprawnie skonfigurowanymi sterownikami USB.
-(Do pliki ADB samodzielnego zainstalowania i skonfugurowania) 
-Wymagany tryb debugowania USB na urządzeniu docelowym.
+Środowisko ADB: Poprawnie skonfigurowane sterowniki USB oraz zainstalowane ADB.
+Tryb debugowania USB: Włączony na urządzeniu docelowym.
 Uwagi dotyczące użytkowania
-Wersja Beta: Aplikacja jest w fazie testów, co oznacza, że mogą wystąpić drobne błędy lub ograniczenia funkcjonalności.
-Bezpieczeństwo: Wszystkie operacje wykonywane za pomocą ADB mogą zmieniać ustawienia urządzenia lub powodować nieoczekiwane efekty. Używaj aplikacji na własną odpowiedzialność.
-Tryb pełnoekranowy: Aplikacja wymaga uruchomienia w pełnym oknie, aby interfejs użytkownika był w pełni widoczny i funkcjonalny.
+Wersja Beta: Aplikacja jest w fazie testów, co może wiązać się z drobnymi błędami lub ograniczoną funkcjonalnością.
+Bezpieczeństwo: Wszystkie operacje wykonywane za pomocą ADB mogą zmieniać ustawienia urządzenia lub prowadzić do nieoczekiwanych efektów. Korzystaj z aplikacji na własną odpowiedzialność.
+Tryb pełnoekranowy: Aplikacja wymaga uruchomienia w pełnym oknie, aby interfejs użytkownika był w pełni funkcjonalny.
